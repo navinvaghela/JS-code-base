@@ -31,7 +31,7 @@ let vanueInNumber = Number(score)
 
 let isLoggedId = 0
 let BooleanIsLoggedIn = Boolean(isLoggedId)
-console.log(BooleanIsLoggedIn);
+// console.log(BooleanIsLoggedIn);
 
 
 
@@ -39,4 +39,42 @@ console.log(BooleanIsLoggedIn);
 // string type conversation
 let someNum = 22
 let someString  = String(someNum)
-console.log('somestring', typeof someString, someString)
+// console.log('somestring', typeof someString, someString)
+
+
+////////////////////////// OPERATION //////////////////////////////
+
+let value = 33
+let negativeValue =  -value
+// console.log(negativeValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2/2)
+// console.log(2*4)
+// console.log(2**2)
+// console.log(2%2)
+
+// string concat
+const str1 = "hello"
+const str2 = " Navin"
+const str3 = str1 + str2
+
+// console.log("sss", str3)
+
+
+let x = 3;
+let y = x++;
+
+y = x;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+
+
+let a = 3;
+let b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
